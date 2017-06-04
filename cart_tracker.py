@@ -100,11 +100,8 @@ def refreshdeck():
 		c = Label(decklistwin, text=prob(AmmountArray[key], AmmountArray[keytotal]))
 		c.grid(row=key, column=5)
 
-decklistwin = Tk()
-decklistwin.title("Deck List")
-
 importwin = Toplevel()
-importwin.title("Eternal CCG Probability Tracker")
+importwin.title("Cart Tracker")
 
 importentry = Text(importwin)
 importbutton = Button(importwin, text="Import")
